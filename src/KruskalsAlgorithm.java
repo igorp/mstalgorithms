@@ -20,7 +20,6 @@ public class KruskalsAlgorithm {
         graph = g;
         T = new Graph();
         edges = g.getUnlinkedEdgeArray();
-        System.out.println("WORKGIN");
         sortEdges();
         visited = new boolean[g.getOrder() + 1];
         //Loop through the edges, starting from the smallest one, until there is n-1 of them added to T
